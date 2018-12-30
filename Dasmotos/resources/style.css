@@ -1,0 +1,55 @@
+
+/*class names, tags, IDs used
+
+<h1>: heading
+<h2>: section heading: Brushes, Fraames, paint
+<h3>: Individual items
+<p>: description and price of items
+
+.price (class): prices
+#brushes (ID): brush header
+#Frames (ID): frames header
+#Paint (ID): paint header
+*/
+
+
+
+body {
+  font-family: "Helvetica";
+}
+
+h1 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  background-color: gray; /*in case image not available*/
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+#brushes {
+  background-color: mediumspringgreen;
+}
+
+#frames {
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}
+
+.price {
+  font-weight: bold;
+  color: blue;
+}
